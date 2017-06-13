@@ -1,0 +1,7 @@
+<h1>
+  {{title}}
+</h1>
+<input [(ngModel)]="a" #ctrl="ngModel"  id="a" required>
+<input [(ngModel)]="b" #ctrl2="ngModel" id="b" required>
+<p id="sum"> {{ sum }}</p>
+<button (click)="setValue(a, b)" id="gobutton">Set value</button>
